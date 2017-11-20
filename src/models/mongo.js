@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-mongoose.connect('mongodb://127.0.0.1:27018/mydb');
+mongoose.connect('PATH_TO_MONGODB');
 
 const mongoSchema = mongoose.Schema;
 
